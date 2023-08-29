@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+label {
+    position: relative;
+}
+
+form > label > * {
+    width: 210px;
+}
+
+.error {
+    position: absolute;
+    left: 0px;
+    bottom: -22px;
+    width: 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #990000;
+    border-radius: 0 0 5px 5px;
+
+    box-sizing: border-box;
+  }
+  
+  .error.active {
+    padding: 0.3em;
+  }
