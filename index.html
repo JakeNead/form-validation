@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Fake Form</h2>
+        <h2>Practice Form</h2>
         <form novalidate>
             <label for="email">Email Address
                 <input type="email" name="email" id="email" required minlength="6" autocomplete="username">
@@ -266,7 +266,7 @@
                 <span id="countryError"></span>
             </label>
             <label for="zip"> Zip Code
-                <input type="number" name="zip" id="zip" required minlength="5">
+                <input type="number" name="zip" id="zip" required min="10000" autocomplete="postal-code">
                 <span id="zipError"></span>
             </label>
             <label for="password">Password
