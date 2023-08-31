@@ -270,10 +270,12 @@
                 <span id="zipError"></span>
             </label>
             <label for="password">Password
-                <input type="password" name="password" id="password"required autocomplete="new-password">
+                <input type="password" name="password" id="password"required autocomplete="new-password" minlength="8">
+                <span id="passwordError"></span>
             </label>    
-            <label for="passwordConfirm">Confirm Password
-                <input type="password" name="passwordConfirm" id="passwordConfirm" required autocomplete="new-password">
+            <label for="confirmPassword">Confirm Password
+                <input type="password" name="confirmPassword" id="confirmPassword" required autocomplete="new-password">
+                <span id="confirmPasswordError"></span>
             </label>
             <button type="submit">Submit</button>
         </form>
